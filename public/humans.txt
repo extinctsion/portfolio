@@ -1,24 +1,24 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+ ______ 
+|  ____|
+| |__   
+|  __|  
+| |____ 
+|______|
 
-The humans.txt file explains the team, technology,
-and graphic assets behind this site humanstxt.org.
+The humans.txt file explains the the details of this portfoilo and tells more about me.
 
 _______________________________________________________________________________
 
 DESIGNER | デザイナー
 
-Hamish Williams
+Aditya Sharma
 Hand crafted design & web development
 
 Design tools:
-Figma
 Photoshop
 
-twitter.com/hamishmw
-github.com/hamishmw
+twitter.com/adirockz004
+github.com/extinctsion
 
 _______________________________________________________________________________
 
@@ -28,9 +28,3 @@ React
 Three js
 Popmotion
 
-_______________________________________________________________________________
-
-FONTS | フォント
-
-Gotham
-Hiragino Kaku Gothic

@@ -22,17 +22,18 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/adirockz004',
     icon: 'twitter',
   },
-  {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
-  },
+
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/extinctsion',
     icon: 'github',
+  },
+  {
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/aditya-sharma-1a19191b3/',
+    icon: 'linkedin',
   },
 ];

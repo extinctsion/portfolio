@@ -24,24 +24,22 @@ const ProfileText = ({ status, titleId }) => (
       level={3}
       id={titleId}
     >
-      <DecoderText text="Hi there" start={status !== 'exited'} delay={500} />
+      <DecoderText text="Hi there!" start={status !== 'exited'} delay={1000} />
     </Heading>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you're interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Aditya, currently I am a undergrad student studying at <Link href="https://www.nerist.ac.in">NERIST</Link>, India. 
+      My interest include website design, open source contribution, building python library, coding. Being comfortable with coding allows me to rapidly
+      prototype and validate experiences. If you're interested in the open source contribution,
+      check out my <Link href="https://github.com/extinctsion">Github page</Link>.
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      In my spare time I like to draw art, play video games. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>

@@ -1,8 +1,8 @@
 # Personal portfolio
 
-[![Site preview](/public/social-image.png)](https://hamishw.com)
+[![Site preview](/public/social-image.png)](http://extinctsion.c1.biz)
 
-A design portfolio to showcase a few projects. View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+A design portfolio to showcase a few projects. View the [live site](http://extinctsion.c1.biz) or check out a live version of the [components storybook](http://extinctsion.c1.biz).
 
 ## Install & run
 
@@ -18,11 +18,6 @@ Once it's done start up a local server with:
 npm start
 ```
 
-To view the components storybook:
-
-```bash
-npm run storybook
-```
 
 To create a production build:
 

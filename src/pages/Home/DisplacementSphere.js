@@ -54,6 +54,7 @@ const DisplacementSphere = props => {
       canvas: canvasRef.current,
       antialias: false,
       powerPreference: 'high-performance',
+      alpha: true,
     });
     renderer.current.setSize(innerWidth, innerHeight);
     renderer.current.setPixelRatio(1);
@@ -195,7 +196,7 @@ const DisplacementSphere = props => {
   }, [isInViewport, prefersReducedMotion]);
 
   return (
-    <Transition appear in onEnter={reflow} timeout={3000}>
+    <Transition appear in onEnter={reflow} timeout={100}>
       {status => (
         <canvas
           aria-hidden

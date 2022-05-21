@@ -23,7 +23,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Developer', 'Artist', 'Designer','Engineer'];
 
 const Home = () => {
   const { status } = useRouteTransition();
@@ -139,11 +139,10 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Hamish Williams | Designer + Developer</title>
+        <title>Aditya Sharma | Designer + Developer</title>
         <meta
           name="description"
-          content="Portfolio of Hamish Williams – a digital designer working on web &amp; mobile
-          apps with a focus on motion and user experience design."
+          content="Portfolio of Aditya Sharma – a digital designer working on web developing."
         />
         <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
         <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
@@ -159,13 +158,13 @@ const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View Project"
-        buttonLink="/projects/smart-sparrow"
+        title="Website for my youtube channel"
+        description="This website is made for my youtube channel contents"
+        buttonText="View Website"
+        buttonLink="http://extinctsion.c1.biz/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Extinctsion Website',
           textures: [
             {
               src: sprTexture,
@@ -181,13 +180,13 @@ const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View Website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="My Youtube channel"
+        description="I have a youtube channel where I upload fun stuffs related to programming and ethical hacking"
+        buttonText="View Channel"
+        buttonLink="https://www.youtube.com/channel/UCR1vQr_Ne--hzZqBLEfg6YA"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Channel screen',
           textures: [
             {
               src: gamestackTexture,
@@ -207,13 +206,13 @@ const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View Project"
-        buttonLink="/projects/slice"
+        title="My Github Profile"
+        description="This is my Github profile where I contibute to open-source projects"
+        buttonText="View Profile"
+        buttonLink="https://github.com/extinctsion"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'My Github profile',
           textures: [
             {
               src: sliceTexture,
